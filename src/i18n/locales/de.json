@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "Funktionen",
+    "techSpecs": "Spezifikationen",
+    "docs": "Docs",
+    "pricing": "Preise",
+    "signIn": "Anmelden",
+    "download": "Herunterladen"
+  },
+  "hero": {
+    "badge": "v0.6.0 Stabile öffentliche Vorschau",
+    "title1": "Hör auf, passiv zuzuschauen.",
+    "title2": "Fang an zu meistern.",
+    "description": "LinguaMaster verwandelt YouTube in dein persönliches KI-Sprachstudio. Interaktive Untertitel, kontextbewusste KI und smartes Notizbuch—alles in einer nativen Desktop-App.",
+    "downloadWindows": "Für Windows herunterladen",
+    "watchDemo": "Demo ansehen",
+    "comingSoon": "macOS & Linux bald verfügbar",
+    "freeForPersonal": "Kostenlos für den persönlichen Gebrauch",
+    "freeCredits": "500 Monatliche Credits",
+    "onSignUp": "Kostenlos",
+    "noConfig": "Keine Konfiguration",
+    "exampleSubtitle": "\"La créativité demande du courage.\"",
+    "exampleTranslation": "Kreativität erfordert Mut.",
+    "exampleAuthor": "[Matisse]",
+    "aiAnalysis": "KI-Analyse",
+    "grammar": "Grammatik:",
+    "grammarText": "\"Demande\" ist die 3. Person Singular von \"demander\" (fordern/verlangen).",
+    "nuance": "Nuance:",
+    "nuanceText": "Hier in einem abstrakten Sinne verwendet, typisch für die Kunstphilosophie.",
+    "vocabulary": "Vokabeln"
+  },
+  "features": {
+    "coreModule": "Kernmodul",
+    "learnMore": "Mehr erfahren",
+    "feature1": {
+      "headline": "Entwickelt für den Flow-Zustand",
+      "text": "Erlebe das immersive Studio-Layout mit geteiltem Bildschirm. Video links, interaktives Lernen rechts. Keine Ablenkungen."
+    },
+    "feature2": {
+      "headline": "Kontextbewusster KI-Tutor",
+      "text": "Nicht nur übersetzen. Verstehen. Unsere KI analysiert spezifische Sätze im Videokontext für Grammatik, Zusammenfassung und kulturelle Nuancen."
+    },
+    "feature3": {
+      "headline": "Dein zweites Gehirn für Vokabeln",
+      "text": "Speichere Wörter mit ihrem originalen Video-Zeitstempel und Kontext. Überprüfe sie in einem schönen Mauerwerk-Raster."
+    },
+    "techSpecs": {
+      "title": "Technische Spezifikationen",
+      "subtitle": "ARCH // Entwickelt für Power-User, denen ihre Daten wichtig sind.",
+      "localFirst": {
+        "title": "Local First",
+        "text": "Deine Lerndaten bleiben auf deinem Gerät. Wir verfolgen deinen Fortschritt nicht und verkaufen deine Gewohnheiten nicht."
+      },
+      "byoKey": {
+        "title": "Sofort Starten",
+        "text": "Starte sofort mit 500 kostenlosen Credits—keine Einrichtung erforderlich. Wechsle jederzeit zu deinem eigenen API-Schlüssel für unbegrenzte Nutzung."
+      },
+      "electronNative": {
+        "title": "Electron Nativ",
+        "text": "Blitzschnelle native Leistung mit voller OS-Integration. Shortcuts, Benachrichtigungen und Offline-Fähigkeit."
+      }
+    },
+    "credits": {
+      "title": "500 Monatliche Credits.",
+      "subtitle": "Mehr Power als du denkst.",
+      "description": "Jeden Monat wird dein Guthaben zurückgesetzt. Das kannst du erreichen, ohne einen Cent auszugeben.",
+      "videoProcessing": {
+        "title": "Video-Verarbeitung",
+        "transcription": "Nur Transkription",
+        "transcribeTranslate": "Transkription + Übersetzung"
+      },
+      "deepLearning": {
+        "title": "Tiefes Lernen",
+        "translation": "Untertitel-Übersetzung",
+        "lookups": "Intelligente Suche",
+        "explanations": "KI-Erklärungen",
+        "tutorChat": "Tutor-Chat"
+      },
+      "typicalSession": {
+        "title": "Typische Sitzung",
+        "recommended": "Empfohlen",
+        "workoutLabel": "10 Min Video-Workout",
+        "transcribe": "Transkribieren",
+        "translate": "Übersetzen",
+        "lookups": "Suchen",
+        "aiChat": "KI-Chat",
+        "totalCost": "Gesamtkosten",
+        "result": "Ergebnis:",
+        "resultText": "Meistere jeden Monat 2-3 Videos komplett kostenlos."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Der moderne Weg, Sprachen aus authentischen Inhalten zu lernen. Von Polyglotten für Polyglotten entwickelt.",
+    "product": "Produkt",
+    "download": "Herunterladen",
+    "changelog": "Änderungsprotokoll",
+    "documentation": "Dokumentation",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "© {year} LinguaMaster. Alle Rechte vorbehalten."
+  }
+}

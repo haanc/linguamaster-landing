@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "techSpecs": "Especificaciones",
+    "docs": "Docs",
+    "pricing": "Precios",
+    "signIn": "Iniciar sesión",
+    "download": "Descargar"
+  },
+  "hero": {
+    "badge": "v0.6.0 Vista previa pública estable",
+    "title1": "Deja de ver pasivamente.",
+    "title2": "Empieza a dominar.",
+    "description": "LinguaMaster transforma YouTube en tu estudio de idiomas IA personal. Subtítulos interactivos, IA contextual y cuaderno inteligente—todo en una aplicación de escritorio nativa.",
+    "downloadWindows": "Descargar para Windows",
+    "watchDemo": "Ver demo",
+    "comingSoon": "macOS y Linux próximamente",
+    "freeForPersonal": "Gratis para uso personal",
+    "freeCredits": "500 Créditos Mensuales",
+    "onSignUp": "Gratis",
+    "noConfig": "Sin configuración",
+    "exampleSubtitle": "\"La créativité demande du courage.\"",
+    "exampleTranslation": "La creatividad requiere coraje.",
+    "exampleAuthor": "[Matisse]",
+    "aiAnalysis": "Análisis IA",
+    "grammar": "Gramática:",
+    "grammarText": "\"Demande\" es la 3ª persona del singular de \"demander\" (pedir/requerir).",
+    "nuance": "Matiz:",
+    "nuanceText": "Usado aquí en un sentido abstracto típico de la filosofía artística.",
+    "vocabulary": "Vocabulario"
+  },
+  "features": {
+    "coreModule": "Módulo Principal",
+    "learnMore": "Saber más",
+    "feature1": {
+      "headline": "Diseñado para el estado de flujo",
+      "text": "Experimenta el diseño de estudio de pantalla dividida inmersivo. Video a la izquierda, aprendizaje interactivo a la derecha. Sin distracciones."
+    },
+    "feature2": {
+      "headline": "Tutor IA Contextual",
+      "text": "No solo traduzcas. Comprende. Nuestra IA analiza oraciones específicas dentro del contexto del video para gramática, resumen y matices culturales."
+    },
+    "feature3": {
+      "headline": "Tu Segundo Cerebro para Vocabulario",
+      "text": "Guarda palabras con su marca de tiempo de video original y contexto. Revísalas en una hermosa cuadrícula de mampostería."
+    },
+    "techSpecs": {
+      "title": "Especificaciones Técnicas",
+      "subtitle": "ARCH // Construido para usuarios avanzados que se preocupan por sus datos.",
+      "localFirst": {
+        "title": "Local Primero",
+        "text": "Tus datos de aprendizaje permanecen en tu máquina. No rastreamos tu progreso ni vendemos tus hábitos."
+      },
+      "byoKey": {
+        "title": "Inicio Sin Configurar",
+        "text": "Comienza instantáneamente con 500 créditos gratis—sin configuración. Cambia a tu propia clave API en cualquier momento para uso ilimitado."
+      },
+      "electronNative": {
+        "title": "Electron Nativo",
+        "text": "Rendimiento nativo ultrarrápido con integración completa del SO. Atajos, notificaciones y capacidad sin conexión."
+      }
+    },
+    "credits": {
+      "title": "500 Créditos Mensuales.",
+      "subtitle": "Más poder del que crees.",
+      "description": "Cada mes, tu saldo se reinicia. Esto es lo que puedes lograr sin gastar un centavo.",
+      "videoProcessing": {
+        "title": "Procesamiento de Video",
+        "transcription": "Solo Transcripción",
+        "transcribeTranslate": "Transcribir + Traducir"
+      },
+      "deepLearning": {
+        "title": "Aprendizaje Profundo",
+        "translation": "Traducción de subtítulos",
+        "lookups": "Búsquedas inteligentes",
+        "explanations": "Explicaciones IA",
+        "tutorChat": "Chat con Tutor"
+      },
+      "typicalSession": {
+        "title": "Sesión Típica",
+        "recommended": "Recomendado",
+        "workoutLabel": "Ejercicio video 10 min",
+        "transcribe": "Transcribir",
+        "translate": "Traducir",
+        "lookups": "Búsquedas",
+        "aiChat": "Chat IA",
+        "totalCost": "Costo Total",
+        "result": "Resultado:",
+        "resultText": "Domina 2-3 videos completamente cada mes gratis."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "La forma moderna de aprender idiomas a partir de contenido auténtico. Creado por políglotas, para políglotas.",
+    "product": "Producto",
+    "download": "Descargar",
+    "changelog": "Registro de cambios",
+    "documentation": "Documentación",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyright": "© {year} LinguaMaster. Todos los derechos reservados."
+  }
+}

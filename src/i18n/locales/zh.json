@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "功能特性",
+    "techSpecs": "技术规格",
+    "docs": "文档",
+    "pricing": "定价",
+    "signIn": "登录",
+    "download": "下载"
+  },
+  "hero": {
+    "badge": "v0.6.0 稳定公测版",
+    "title1": "告别被动观看。",
+    "title2": "开始精通语言。",
+    "description": "LinguaMaster 将 YouTube 变成你的 AI 语言学习工作室。交互式字幕、上下文感知 AI、智能笔记本——全部集成在原生桌面应用中。",
+    "downloadWindows": "下载 Windows 版",
+    "watchDemo": "观看演示",
+    "comingSoon": "macOS 和 Linux 版即将推出",
+    "freeForPersonal": "个人使用免费",
+    "freeCredits": "每月 500 积分",
+    "onSignUp": "免费",
+    "noConfig": "无需配置",
+    "exampleSubtitle": "\"La créativité demande du courage.\"",
+    "exampleTranslation": "创造力需要勇气。",
+    "exampleAuthor": "[马蒂斯]",
+    "aiAnalysis": "AI 分析",
+    "grammar": "语法：",
+    "grammarText": "\"Demande\" 是 \"demander\"（要求）的第三人称单数形式。",
+    "nuance": "语境：",
+    "nuanceText": "这里以抽象的方式使用，是艺术哲学中的典型表达。",
+    "vocabulary": "词汇"
+  },
+  "features": {
+    "coreModule": "核心模块",
+    "learnMore": "了解更多",
+    "feature1": {
+      "headline": "专为心流状态设计",
+      "text": "体验沉浸式分屏工作室布局。左侧视频，右侧交互学习。零干扰。"
+    },
+    "feature2": {
+      "headline": "上下文感知 AI 导师",
+      "text": "不仅仅是翻译，更要理解。我们的 AI 在视频上下文中分析特定句子的语法、摘要和文化内涵。"
+    },
+    "feature3": {
+      "headline": "你的词汇第二大脑",
+      "text": "保存单词时附带原视频时间戳和上下文。在精美的瀑布流布局中复习它们。"
+    },
+    "techSpecs": {
+      "title": "技术规格",
+      "subtitle": "架构 // 为重视数据隐私的高级用户打造。",
+      "localFirst": {
+        "title": "本地优先",
+        "text": "你的学习数据保存在本机。我们不追踪你的进度，也不出售你的习惯数据。"
+      },
+      "byoKey": {
+        "title": "零配置启动",
+        "text": "注册即送 500 积分，无需任何配置即可开始使用。随时可切换到自己的 API 密钥享受无限用量。"
+      },
+      "electronNative": {
+        "title": "Electron 原生",
+        "text": "极速原生性能，完整的系统集成。快捷键、通知和离线功能一应俱全。"
+      }
+    },
+    "credits": {
+      "title": "每月 500 积分",
+      "subtitle": "比你想象的更强大",
+      "description": "每月额度自动重置。以下是你无需花费一分钱就能实现的目标。",
+      "videoProcessing": {
+        "title": "视频处理",
+        "transcription": "仅转录",
+        "transcribeTranslate": "转录 + 翻译"
+      },
+      "deepLearning": {
+        "title": "深度学习",
+        "translation": "字幕翻译",
+        "lookups": "智能查词",
+        "explanations": "AI 解释",
+        "tutorChat": "导师对话"
+      },
+      "typicalSession": {
+        "title": "典型学习",
+        "recommended": "推荐",
+        "workoutLabel": "10 分钟视频学习",
+        "transcribe": "转录",
+        "translate": "翻译",
+        "lookups": "查词",
+        "aiChat": "AI 对话",
+        "totalCost": "总消耗",
+        "result": "效果：",
+        "resultText": "每月免费完整学习 2-3 个视频。"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "从真实内容中学习语言的现代方式。由多语言爱好者为多语言爱好者打造。",
+    "product": "产品",
+    "download": "下载",
+    "changelog": "更新日志",
+    "documentation": "文档",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© {year} LinguaMaster. 保留所有权利。"
+  }
+}

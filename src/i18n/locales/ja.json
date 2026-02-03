@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "機能",
+    "techSpecs": "技術仕様",
+    "docs": "ドキュメント",
+    "pricing": "料金",
+    "signIn": "サインイン",
+    "download": "ダウンロード"
+  },
+  "hero": {
+    "badge": "v0.6.0 安定版パブリックプレビュー",
+    "title1": "受動的な視聴をやめよう。",
+    "title2": "習得を始めよう。",
+    "description": "LinguaMasterはYouTubeをあなた専用のAI語学スタジオに変えます。インタラクティブな字幕、コンテキスト対応AI、スマートノートブック—すべてがネイティブデスクトップアプリに。",
+    "downloadWindows": "Windows版をダウンロード",
+    "watchDemo": "デモを見る",
+    "comingSoon": "macOS・Linux版は近日公開",
+    "freeForPersonal": "個人利用は無料",
+    "freeCredits": "月500クレジット",
+    "onSignUp": "無料",
+    "noConfig": "設定不要",
+    "exampleSubtitle": "\"La créativité demande du courage.\"",
+    "exampleTranslation": "創造性には勇気が必要です。",
+    "exampleAuthor": "[マティス]",
+    "aiAnalysis": "AI分析",
+    "grammar": "文法：",
+    "grammarText": "\"Demande\"は\"demander\"（要求する）の三人称単数形です。",
+    "nuance": "ニュアンス：",
+    "nuanceText": "芸術哲学に典型的な抽象的な意味で使われています。",
+    "vocabulary": "語彙"
+  },
+  "features": {
+    "coreModule": "コアモジュール",
+    "learnMore": "詳細を見る",
+    "feature1": {
+      "headline": "フロー状態のために設計",
+      "text": "没入型の分割画面スタジオレイアウトを体験。左に動画、右にインタラクティブ学習。集中を妨げるものはありません。"
+    },
+    "feature2": {
+      "headline": "コンテキスト対応AIチューター",
+      "text": "単なる翻訳ではなく、理解を。AIが動画のコンテキスト内で特定の文を分析し、文法、要約、文化的ニュアンスを解説します。"
+    },
+    "feature3": {
+      "headline": "語彙のセカンドブレイン",
+      "text": "元の動画のタイムスタンプとコンテキストと共に単語を保存。美しいマソンリーグリッドで復習できます。"
+    },
+    "techSpecs": {
+      "title": "技術仕様",
+      "subtitle": "アーキテクチャ // データを大切にするパワーユーザーのために構築。",
+      "localFirst": {
+        "title": "ローカルファースト",
+        "text": "学習データはあなたのマシンに保存されます。進捗を追跡したり、習慣データを販売することはありません。"
+      },
+      "byoKey": {
+        "title": "設定不要で開始",
+        "text": "500クレジット無料で今すぐ開始—設定は不要です。いつでも自分のAPIキーに切り替えて無制限に使用可能。"
+      },
+      "electronNative": {
+        "title": "Electronネイティブ",
+        "text": "高速なネイティブパフォーマンスと完全なOS統合。ショートカット、通知、オフライン機能を搭載。"
+      }
+    },
+    "credits": {
+      "title": "月500クレジット",
+      "subtitle": "想像以上のパワー",
+      "description": "毎月残高がリセットされます。無料でこれだけのことができます。",
+      "videoProcessing": {
+        "title": "動画処理",
+        "transcription": "文字起こしのみ",
+        "transcribeTranslate": "文字起こし + 翻訳"
+      },
+      "deepLearning": {
+        "title": "ディープラーニング",
+        "translation": "字幕翻訳",
+        "lookups": "スマート検索",
+        "explanations": "AI解説",
+        "tutorChat": "チューターチャット"
+      },
+      "typicalSession": {
+        "title": "典型的なセッション",
+        "recommended": "おすすめ",
+        "workoutLabel": "10分動画ワークアウト",
+        "transcribe": "文字起こし",
+        "translate": "翻訳",
+        "lookups": "検索",
+        "aiChat": "AIチャット",
+        "totalCost": "合計コスト",
+        "result": "結果：",
+        "resultText": "毎月2-3本の動画を無料で完全マスター。"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "本物のコンテンツから言語を学ぶ現代的な方法。ポリグロットによる、ポリグロットのために。",
+    "product": "製品",
+    "download": "ダウンロード",
+    "changelog": "変更履歴",
+    "documentation": "ドキュメント",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "© {year} LinguaMaster. All rights reserved."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "techSpecs": "Spécifications",
+    "docs": "Docs",
+    "pricing": "Tarifs",
+    "signIn": "Connexion",
+    "download": "Télécharger"
+  },
+  "hero": {
+    "badge": "v0.6.0 Aperçu Public Stable",
+    "title1": "Arrêtez de regarder passivement.",
+    "title2": "Commencez à maîtriser.",
+    "description": "LinguaMaster transforme YouTube en votre studio linguistique IA personnel. Sous-titres interactifs, IA contextuelle et carnet intelligent—le tout dans une application de bureau native.",
+    "downloadWindows": "Télécharger pour Windows",
+    "watchDemo": "Voir la démo",
+    "comingSoon": "macOS et Linux bientôt disponibles",
+    "freeForPersonal": "Gratuit pour usage personnel",
+    "freeCredits": "500 Crédits Mensuels",
+    "onSignUp": "Gratuit",
+    "noConfig": "Aucune configuration",
+    "exampleSubtitle": "\"La créativité demande du courage.\"",
+    "exampleTranslation": "La créativité demande du courage.",
+    "exampleAuthor": "[Matisse]",
+    "aiAnalysis": "Analyse IA",
+    "grammar": "Grammaire :",
+    "grammarText": "\"Demande\" est la 3e personne du singulier de \"demander\".",
+    "nuance": "Nuance :",
+    "nuanceText": "Utilisé ici dans un sens abstrait typique de la philosophie artistique.",
+    "vocabulary": "Vocabulaire"
+  },
+  "features": {
+    "coreModule": "Module Principal",
+    "learnMore": "En savoir plus",
+    "feature1": {
+      "headline": "Conçu pour l'état de flow",
+      "text": "Découvrez la disposition Studio en écran partagé immersif. Vidéo à gauche, apprentissage interactif à droite. Sans distractions."
+    },
+    "feature2": {
+      "headline": "Tuteur IA Contextuel",
+      "text": "Ne vous contentez pas de traduire. Comprenez. Notre IA analyse des phrases spécifiques dans le contexte vidéo pour la grammaire, le résumé et les nuances culturelles."
+    },
+    "feature3": {
+      "headline": "Votre Second Cerveau pour le Vocabulaire",
+      "text": "Enregistrez les mots avec leur horodatage vidéo original et leur contexte. Révisez-les dans une belle grille en maçonnerie."
+    },
+    "techSpecs": {
+      "title": "Spécifications Techniques",
+      "subtitle": "ARCH // Conçu pour les utilisateurs avancés soucieux de leurs données.",
+      "localFirst": {
+        "title": "Local d'abord",
+        "text": "Vos données d'apprentissage restent sur votre machine. Nous ne suivons pas vos progrès et ne vendons pas vos habitudes."
+      },
+      "byoKey": {
+        "title": "Démarrage Immédiat",
+        "text": "Commencez instantanément avec 500 crédits gratuits—aucune configuration requise. Passez à votre propre clé API à tout moment pour une utilisation illimitée."
+      },
+      "electronNative": {
+        "title": "Electron Natif",
+        "text": "Performances natives ultra-rapides avec intégration OS complète. Raccourcis, notifications et capacité hors ligne."
+      }
+    },
+    "credits": {
+      "title": "500 Crédits Mensuels.",
+      "subtitle": "Plus de puissance que vous ne pensez.",
+      "description": "Chaque mois, votre solde est réinitialisé. Voici ce que vous pouvez accomplir gratuitement.",
+      "videoProcessing": {
+        "title": "Traitement Vidéo",
+        "transcription": "Transcription seule",
+        "transcribeTranslate": "Transcription + Traduction"
+      },
+      "deepLearning": {
+        "title": "Apprentissage Profond",
+        "translation": "Traduction de sous-titres",
+        "lookups": "Recherches intelligentes",
+        "explanations": "Explications IA",
+        "tutorChat": "Chat Tuteur"
+      },
+      "typicalSession": {
+        "title": "Session Typique",
+        "recommended": "Recommandé",
+        "workoutLabel": "Exercice vidéo 10 min",
+        "transcribe": "Transcrire",
+        "translate": "Traduire",
+        "lookups": "Recherches",
+        "aiChat": "Chat IA",
+        "totalCost": "Coût Total",
+        "result": "Résultat :",
+        "resultText": "Maîtrisez 2-3 vidéos complètement chaque mois gratuitement."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "La façon moderne d'apprendre les langues à partir de contenu authentique. Créé par des polyglottes, pour des polyglottes.",
+    "product": "Produit",
+    "download": "Télécharger",
+    "changelog": "Journal des modifications",
+    "documentation": "Documentation",
+    "legal": "Légal",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyright": "© {year} LinguaMaster. Tous droits réservés."
+  }
+}

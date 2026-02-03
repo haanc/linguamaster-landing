@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "Features",
+    "techSpecs": "Tech Specs",
+    "docs": "Docs",
+    "pricing": "Pricing",
+    "signIn": "Sign In",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "v0.6.0 Stable Public Preview",
+    "title1": "Stop Watching Passively.",
+    "title2": "Start Mastering.",
+    "description": "LinguaMaster transforms YouTube into your personal AI language studio. Interactive subtitles, context-aware AI, and a smart notebook—all in a native desktop app.",
+    "downloadWindows": "Download for Windows",
+    "watchDemo": "Watch Demo",
+    "comingSoon": "macOS & Linux coming soon",
+    "freeForPersonal": "Free for personal use",
+    "freeCredits": "500 Monthly Credits",
+    "onSignUp": "for Free",
+    "noConfig": "No config needed",
+    "exampleSubtitle": "\"La créativité demande du courage.\"",
+    "exampleTranslation": "Creativity requires courage.",
+    "exampleAuthor": "[Matisse]",
+    "aiAnalysis": "AI Analysis",
+    "grammar": "Grammar:",
+    "grammarText": "\"Demande\" is the 3rd person singular of \"demander\" (to ask/require).",
+    "nuance": "Nuance:",
+    "nuanceText": "Used here in an abstract sense typical of artistic philosophy.",
+    "vocabulary": "Vocabulary"
+  },
+  "features": {
+    "coreModule": "Core Module",
+    "learnMore": "Learn more",
+    "feature1": {
+      "headline": "Engineered for Flow State",
+      "text": "Experience the immersive split-screen Studio Layout. Video on the left, interactive learning on the right. No distractions."
+    },
+    "feature2": {
+      "headline": "Context-Aware AI Tutor",
+      "text": "Don't just translate. Understand. Our AI analyzes specific sentences within the video context for grammar, summary, and cultural nuance."
+    },
+    "feature3": {
+      "headline": "Your Second Brain for Vocabulary",
+      "text": "Save words with their original video timestamp and context. Review them in a beautiful masonry grid."
+    },
+    "techSpecs": {
+      "title": "Technical Specifications",
+      "subtitle": "ARCH // Built for power users who care about their data.",
+      "localFirst": {
+        "title": "Local First",
+        "text": "Your learning data stays on your machine. We don't track your progress or sell your habits."
+      },
+      "byoKey": {
+        "title": "Zero Config Start",
+        "text": "Start instantly with 500 free credits—no setup required. Switch to your own API key anytime for unlimited usage."
+      },
+      "electronNative": {
+        "title": "Electron Native",
+        "text": "Blazing fast native performance with full OS integration. Shortcuts, notifications, and offline capability."
+      }
+    },
+    "credits": {
+      "title": "500 Monthly Credits.",
+      "subtitle": "More power than you think.",
+      "description": "Every month, your balance resets. Here is what you can achieve without spending a dime.",
+      "videoProcessing": {
+        "title": "Video Processing",
+        "transcription": "Transcription Only",
+        "transcribeTranslate": "Transcribe + Translate"
+      },
+      "deepLearning": {
+        "title": "Deep Learning",
+        "translation": "Subtitle Translation",
+        "lookups": "Smart Lookups",
+        "explanations": "AI Explanations",
+        "tutorChat": "Tutor Chat"
+      },
+      "typicalSession": {
+        "title": "Typical Session",
+        "recommended": "Recommended",
+        "workoutLabel": "10 Min Video Workout",
+        "transcribe": "Transcribe",
+        "translate": "Translate",
+        "lookups": "Lookups",
+        "aiChat": "AI Chat",
+        "totalCost": "Total Cost",
+        "result": "Result:",
+        "resultText": "Master 2-3 videos fully every month for free."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "The modern way to learn languages from authentic content. Built for polyglots, by polyglots.",
+    "product": "Product",
+    "download": "Download",
+    "changelog": "Changelog",
+    "documentation": "Documentation",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} LinguaMaster. All rights reserved."
+  }
+}
