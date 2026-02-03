@@ -11,9 +11,10 @@ interface FeatureItemProps {
   learnMoreLabel: string;
   learnMoreLink: string;
   isReversed?: boolean;
+  screenshot?: string;
 }
 
-const FeatureItem: React.FC<FeatureItemProps> = ({ icon: Icon, headline, text, coreModuleLabel, learnMoreLabel, learnMoreLink, isReversed }) => {
+const FeatureItem: React.FC<FeatureItemProps> = ({ icon: Icon, headline, text, coreModuleLabel, learnMoreLabel, learnMoreLink, isReversed, screenshot }) => {
   return (
     <div className={`flex flex-col md:flex-row items-center gap-12 md:gap-20 ${isReversed ? 'md:flex-row-reverse' : ''}`}>
       <div className="flex-1 w-full">
@@ -23,26 +24,34 @@ const FeatureItem: React.FC<FeatureItemProps> = ({ icon: Icon, headline, text, c
 
             {/* Visual Container */}
             <div className="aspect-[4/3] rounded-xl bg-zinc-950/50 border border-zinc-800/50 flex items-center justify-center relative overflow-hidden backdrop-blur-sm">
+                {screenshot ? (
+                  <img
+                    src={screenshot}
+                    alt={headline}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <>
+                    {/* Geeky Grid Background */}
+                    <div className="absolute inset-0" style={{
+                        backgroundImage: 'radial-gradient(rgba(124, 58, 237, 0.1) 1px, transparent 1px)',
+                        backgroundSize: '24px 24px'
+                    }}></div>
 
-                {/* Geeky Grid Background */}
-                <div className="absolute inset-0" style={{
-                    backgroundImage: 'radial-gradient(rgba(124, 58, 237, 0.1) 1px, transparent 1px)',
-                    backgroundSize: '24px 24px'
-                }}></div>
-
-                {/* Central Icon Representation */}
-                <div className="relative z-10 flex flex-col items-center justify-center">
-                    <div className="p-6 rounded-2xl bg-zinc-900 border border-zinc-800 shadow-2xl group-hover:scale-105 transition-transform duration-500 relative">
-                        <div className="absolute inset-0 bg-brand-500/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                        <Icon className="w-16 h-16 text-zinc-200 relative z-10" />
+                    {/* Central Icon Representation */}
+                    <div className="relative z-10 flex flex-col items-center justify-center">
+                        <div className="p-6 rounded-2xl bg-zinc-900 border border-zinc-800 shadow-2xl group-hover:scale-105 transition-transform duration-500 relative">
+                            <div className="absolute inset-0 bg-brand-500/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <Icon className="w-16 h-16 text-zinc-200 relative z-10" />
+                        </div>
+                        {/* Fake UI Elements for "Geeky" vibe */}
+                        <div className="mt-6 flex items-center gap-2 px-3 py-1.5 rounded-full bg-zinc-900/80 border border-zinc-800 text-[10px] font-mono text-zinc-500">
+                            <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div>
+                            <span>SYSTEM_READY</span>
+                        </div>
                     </div>
-                    {/* Fake UI Elements for "Geeky" vibe */}
-                    <div className="mt-6 flex items-center gap-2 px-3 py-1.5 rounded-full bg-zinc-900/80 border border-zinc-800 text-[10px] font-mono text-zinc-500">
-                        <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div>
-                        <span>SYSTEM_READY</span>
-                    </div>
-                </div>
-
+                  </>
+                )}
             </div>
          </div>
       </div>
@@ -85,6 +94,7 @@ export const Features: React.FC = () => {
           coreModuleLabel={t('features.coreModule')}
           learnMoreLabel={t('features.learnMore')}
           learnMoreLink="/docs#bilingual"
+          screenshot="/screenshots/word-lookup.png"
         />
 
         {/* Feature 2: AI Tutor */}
@@ -96,6 +106,7 @@ export const Features: React.FC = () => {
           learnMoreLabel={t('features.learnMore')}
           learnMoreLink="/docs#ai-tutor"
           isReversed
+          screenshot="/screenshots/ai-tutor.png"
         />
 
         {/* Feature 3: Notebook */}
@@ -106,6 +117,7 @@ export const Features: React.FC = () => {
           coreModuleLabel={t('features.coreModule')}
           learnMoreLabel={t('features.learnMore')}
           learnMoreLink="/docs#vocabulary"
+          screenshot="/screenshots/vocabulary.png"
         />
 
         {/* Tech Specs Bento Grid */}

@@ -27,7 +27,13 @@
     "grammarText": "\"Demande\" est la 3e personne du singulier de \"demander\".",
     "nuance": "Nuance :",
     "nuanceText": "Utilisé ici dans un sens abstrait typique de la philosophie artistique.",
-    "vocabulary": "Vocabulaire"
+    "vocabulary": "Vocabulaire",
+    "screenshots": {
+      "wordLookup": "Cliquez sur n'importe quel mot pour une traduction et prononciation instantanées",
+      "aiExplain": "Analyse grammaticale et contextuelle par IA",
+      "aiTutor": "Discutez avec votre tuteur linguistique IA personnel",
+      "vocabulary": "Carnet de vocabulaire intelligent avec répétition espacée"
+    }
   },
   "features": {
     "coreModule": "Module Principal",
@@ -99,6 +105,6 @@
     "legal": "Légal",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "copyright": "© {year} LinguaMaster. Tous droits réservés."
+    "copyright": "© 2026 LinguaMaster. Tous droits réservés."
   }
 }

@@ -1,12 +1,53 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Download, Play, Terminal, Sparkles } from 'lucide-react';
+import { Download, Play, Terminal, Sparkles, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { Button } from './Button';
 import { useLatestRelease } from '../hooks/useLatestRelease';
+
+// Screenshot data
+const screenshots = [
+  { src: '/screenshots/word-lookup.png', key: 'wordLookup' },
+  { src: '/screenshots/ai-explain.png', key: 'aiExplain' },
+  { src: '/screenshots/ai-tutor.png', key: 'aiTutor' },
+  { src: '/screenshots/vocabulary.png', key: 'vocabulary' },
+];
 
 export const Hero: React.FC = () => {
   const { t } = useTranslation();
   const { version, downloadUrl } = useLatestRelease();
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [showVideo, setShowVideo] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // Auto-advance slides (pause when video is playing)
+  useEffect(() => {
+    if (showVideo) return;
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % screenshots.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [showVideo]);
+
+  // Handle escape key to close video
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && showVideo) {
+        setShowVideo(false);
+      }
+    };
+    window.addEventListener('keydown', handleEscape);
+    return () => window.removeEventListener('keydown', handleEscape);
+  }, [showVideo]);
+
+  // Pause video when modal closes
+  useEffect(() => {
+    if (!showVideo && videoRef.current) {
+      videoRef.current.pause();
+    }
+  }, [showVideo]);
+
+  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % screenshots.length);
+  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + screenshots.length) % screenshots.length);
 
   return (
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
@@ -50,7 +91,13 @@ export const Hero: React.FC = () => {
                 {t('hero.downloadWindows')}
               </Button>
             </a>
-            <Button variant="outline" size="lg" icon={Play} className="w-full sm:w-auto h-12">
+            <Button
+              variant="outline"
+              size="lg"
+              icon={Play}
+              className="w-full sm:w-auto h-12"
+              onClick={() => setShowVideo(true)}
+            >
               {t('hero.watchDemo')}
             </Button>
           </div>
@@ -62,54 +109,100 @@ export const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Abstract "Studio" visual representation */}
+        {/* Screenshot Carousel */}
         <div className="mt-20 relative mx-auto max-w-5xl">
             <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 to-indigo-500 rounded-xl blur opacity-20"></div>
-            <div className="relative rounded-xl border border-zinc-800 bg-zinc-950 shadow-2xl overflow-hidden aspect-video group">
-                {/* Fake UI Header */}
-                <div className="h-10 border-b border-zinc-800 bg-zinc-900/50 flex items-center px-4 space-x-2">
-                    <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50"></div>
-                    <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50"></div>
-                    <div className="ml-4 h-5 w-64 bg-zinc-800/50 rounded text-[10px] flex items-center px-2 text-zinc-500 font-mono">
-                        linguamaster://studio/session-01
-                    </div>
+            <div className="relative rounded-xl border border-zinc-800 bg-zinc-950 shadow-2xl overflow-hidden">
+                {/* Screenshot Image */}
+                <div className="relative aspect-video">
+                  <img
+                    src={screenshots[currentSlide].src}
+                    alt={t(`hero.screenshots.${screenshots[currentSlide].key}`)}
+                    className="w-full h-full object-cover"
+                  />
+
+                  {/* Navigation Arrows */}
+                  <button
+                    onClick={prevSlide}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-zinc-900/80 hover:bg-zinc-800 rounded-full border border-zinc-700 transition-colors"
+                    aria-label="Previous screenshot"
+                  >
+                    <ChevronLeft className="w-6 h-6 text-white" />
+                  </button>
+                  <button
+                    onClick={nextSlide}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-zinc-900/80 hover:bg-zinc-800 rounded-full border border-zinc-700 transition-colors"
+                    aria-label="Next screenshot"
+                  >
+                    <ChevronRight className="w-6 h-6 text-white" />
+                  </button>
+
+                  {/* Caption */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-zinc-950 to-transparent p-6">
+                    <p className="text-lg font-medium text-white text-center">
+                      {t(`hero.screenshots.${screenshots[currentSlide].key}`)}
+                    </p>
+                  </div>
                 </div>
-                {/* Fake UI Body Split */}
-                <div className="flex h-full">
-                    {/* Left: Video Placeholder */}
-                    <div className="w-2/3 border-r border-zinc-800 bg-black flex items-center justify-center relative">
-                        <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/80 to-transparent flex items-end p-8">
-                             <div className="bg-zinc-900/90 px-4 py-2 rounded-lg border border-zinc-700 backdrop-blur-md">
-                                <p className="text-xl font-medium text-white">{t('hero.exampleSubtitle')}</p>
-                                <p className="text-sm text-zinc-400 mt-1">{t('hero.exampleTranslation')} <span className="text-brand-400 text-xs ml-2">{t('hero.exampleAuthor')}</span></p>
-                             </div>
-                        </div>
-                        <Play className="w-16 h-16 text-white/20" />
-                    </div>
-                    {/* Right: AI Panel */}
-                    <div className="w-1/3 bg-zinc-900/20 p-6 space-y-6 font-mono text-sm">
-                         <div className="space-y-2">
-                            <div className="text-xs text-brand-400 uppercase tracking-wider font-bold">{t('hero.aiAnalysis')}</div>
-                            <div className="p-3 bg-zinc-800/50 rounded border border-zinc-700/50 text-zinc-300">
-                                <p><span className="text-indigo-400">{t('hero.grammar')}</span> {t('hero.grammarText')}</p>
-                            </div>
-                            <div className="p-3 bg-zinc-800/50 rounded border border-zinc-700/50 text-zinc-300">
-                                <p><span className="text-indigo-400">{t('hero.nuance')}</span> {t('hero.nuanceText')}</p>
-                            </div>
-                         </div>
-                         <div className="space-y-2">
-                             <div className="text-xs text-brand-400 uppercase tracking-wider font-bold">{t('hero.vocabulary')}</div>
-                             <div className="flex flex-wrap gap-2">
-                                <span className="px-2 py-1 bg-zinc-800 rounded border border-zinc-700 text-xs text-zinc-400">créativité (n.f)</span>
-                                <span className="px-2 py-1 bg-zinc-800 rounded border border-zinc-700 text-xs text-zinc-400">courage (n.m)</span>
-                             </div>
-                         </div>
-                    </div>
+
+                {/* Dots Indicator */}
+                <div className="flex justify-center space-x-2 py-4 bg-zinc-900/50">
+                  {screenshots.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentSlide(index)}
+                      className={`w-2.5 h-2.5 rounded-full transition-colors ${
+                        index === currentSlide
+                          ? 'bg-brand-500'
+                          : 'bg-zinc-600 hover:bg-zinc-500'
+                      }`}
+                      aria-label={`Go to slide ${index + 1}`}
+                    />
+                  ))}
                 </div>
             </div>
         </div>
       </div>
+
+      {/* Video Modal */}
+      {showVideo && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm"
+          onClick={() => setShowVideo(false)}
+        >
+          <div
+            className="relative w-full max-w-5xl mx-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setShowVideo(false)}
+              className="absolute -top-12 right-0 p-2 text-zinc-400 hover:text-white transition-colors"
+              aria-label="Close video"
+            >
+              <X className="w-8 h-8" />
+            </button>
+
+            {/* Video Player */}
+            <div className="relative rounded-xl overflow-hidden border border-zinc-700 shadow-2xl">
+              <video
+                ref={videoRef}
+                src="/demo.mp4"
+                controls
+                autoPlay
+                className="w-full aspect-video bg-black"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            {/* Caption */}
+            <p className="text-center text-zinc-400 mt-4 text-sm">
+              {t('hero.watchDemo')} • Press ESC to close
+            </p>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

@@ -27,7 +27,13 @@
     "grammarText": "\"Demande\" ist die 3. Person Singular von \"demander\" (fordern/verlangen).",
     "nuance": "Nuance:",
     "nuanceText": "Hier in einem abstrakten Sinne verwendet, typisch für die Kunstphilosophie.",
-    "vocabulary": "Vokabeln"
+    "vocabulary": "Vokabeln",
+    "screenshots": {
+      "wordLookup": "Klicken Sie auf ein beliebiges Wort für sofortige Übersetzung und Aussprache",
+      "aiExplain": "KI-gestützte Grammatik- und Kontextanalyse",
+      "aiTutor": "Chatten Sie mit Ihrem persönlichen KI-Sprachtutor",
+      "vocabulary": "Smartes Vokabelheft mit Spaced Repetition"
+    }
   },
   "features": {
     "coreModule": "Kernmodul",
@@ -99,6 +105,6 @@
     "legal": "Rechtliches",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
-    "copyright": "© {year} LinguaMaster. Alle Rechte vorbehalten."
+    "copyright": "© 2026 LinguaMaster. Alle Rechte vorbehalten."
   }
 }

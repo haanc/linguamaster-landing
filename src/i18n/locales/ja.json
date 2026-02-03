@@ -27,7 +27,13 @@
     "grammarText": "\"Demande\"は\"demander\"（要求する）の三人称単数形です。",
     "nuance": "ニュアンス：",
     "nuanceText": "芸術哲学に典型的な抽象的な意味で使われています。",
-    "vocabulary": "語彙"
+    "vocabulary": "語彙",
+    "screenshots": {
+      "wordLookup": "単語をクリックして即座に翻訳と発音を取得",
+      "aiExplain": "AI搭載の文法とコンテキスト分析",
+      "aiTutor": "AIランゲージチューターとチャット",
+      "vocabulary": "スペースドリピティション対応のスマート語彙ノート"
+    }
   },
   "features": {
     "coreModule": "コアモジュール",
@@ -99,6 +105,6 @@
     "legal": "法的情報",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "copyright": "© {year} LinguaMaster. All rights reserved."
+    "copyright": "© 2026 LinguaMaster. All rights reserved."
   }
 }

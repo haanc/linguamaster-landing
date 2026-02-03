@@ -27,7 +27,13 @@
     "grammarText": "\"Demande\" es la 3ª persona del singular de \"demander\" (pedir/requerir).",
     "nuance": "Matiz:",
     "nuanceText": "Usado aquí en un sentido abstracto típico de la filosofía artística.",
-    "vocabulary": "Vocabulario"
+    "vocabulary": "Vocabulario",
+    "screenshots": {
+      "wordLookup": "Haz clic en cualquier palabra para traducción y pronunciación instantáneas",
+      "aiExplain": "Análisis gramatical y contextual con IA",
+      "aiTutor": "Chatea con tu tutor de idiomas IA personal",
+      "vocabulary": "Cuaderno de vocabulario inteligente con repetición espaciada"
+    }
   },
   "features": {
     "coreModule": "Módulo Principal",
@@ -99,6 +105,6 @@
     "legal": "Legal",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyright": "© {year} LinguaMaster. Todos los derechos reservados."
+    "copyright": "© 2026 LinguaMaster. Todos los derechos reservados."
   }
 }
