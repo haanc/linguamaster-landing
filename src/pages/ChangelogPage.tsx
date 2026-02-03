@@ -14,7 +14,7 @@ interface Release {
 const GITHUB_API_URL = 'https://api.github.com/repos/haanc/LinguaMaster-Dist/releases';
 
 export const ChangelogPage: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [releases, setReleases] = useState<Release[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
