@@ -6,6 +6,7 @@ import { ChangelogPage } from './pages/ChangelogPage';
 import { DocsPage } from './pages/DocsPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { TermsPage } from './pages/TermsPage';
+import { AuthCallbackPage } from './pages/AuthCallbackPage';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,8 @@ const App: React.FC = () => {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
         </Route>
+        {/* Auth callback - no layout wrapper for clean confirmation page */}
+        <Route path="/auth/callback" element={<AuthCallbackPage />} />
       </Routes>
     </BrowserRouter>
   );
