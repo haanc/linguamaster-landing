@@ -1,23 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { CheckCircle, Download, ExternalLink } from 'lucide-react';
+import React from 'react';
+import { CheckCircle, Download } from 'lucide-react';
 
 export const AuthCallbackPage: React.FC = () => {
-  const [countdown, setCountdown] = useState(5);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCountdown((prev) => {
-        if (prev <= 1) {
-          clearInterval(timer);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-gray-950 flex items-center justify-center px-4">
       <div className="max-w-md w-full text-center">
