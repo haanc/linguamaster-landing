@@ -1,0 +1,11 @@
+# robots.txt for LinguaMaster Landing Page
+# https://linguamaster.top
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://linguamaster.top/sitemap.xml
+
+# Disallow admin or API paths (if any)
+Disallow: /api/
