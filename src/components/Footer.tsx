@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className="flex space-x-6">
             <a href="#" className="text-zinc-500 hover:text-white transition-colors" title="Twitter (Coming Soon)"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="text-zinc-500 hover:text-white transition-colors" title="Email (Coming Soon)"><Mail className="w-5 h-5" /></a>
+            <a href="mailto:feedback@linguamaster.top" className="text-zinc-500 hover:text-white transition-colors" title="feedback@linguamaster.top"><Mail className="w-5 h-5" /></a>
           </div>
         </div>
       </div>

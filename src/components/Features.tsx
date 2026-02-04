@@ -12,9 +12,11 @@ interface FeatureItemProps {
   learnMoreLink: string;
   isReversed?: boolean;
   screenshot?: string;
+  screenshotPosition?: 'center' | 'left' | 'right';
 }
 
-const FeatureItem: React.FC<FeatureItemProps> = ({ icon: Icon, headline, text, coreModuleLabel, learnMoreLabel, learnMoreLink, isReversed, screenshot }) => {
+const FeatureItem: React.FC<FeatureItemProps> = ({ icon: Icon, headline, text, coreModuleLabel, learnMoreLabel, learnMoreLink, isReversed, screenshot, screenshotPosition = 'center' }) => {
+  const positionClass = screenshotPosition === 'right' ? 'object-right' : screenshotPosition === 'left' ? 'object-left' : 'object-center';
   return (
     <div className={`flex flex-col md:flex-row items-center gap-12 md:gap-20 ${isReversed ? 'md:flex-row-reverse' : ''}`}>
       <div className="flex-1 w-full">
@@ -28,7 +30,7 @@ const FeatureItem: React.FC<FeatureItemProps> = ({ icon: Icon, headline, text, c
                   <img
                     src={screenshot}
                     alt={headline}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full object-cover ${positionClass} group-hover:scale-105 transition-transform duration-500`}
                   />
                 ) : (
                   <>
@@ -95,6 +97,7 @@ export const Features: React.FC = () => {
           learnMoreLabel={t('features.learnMore')}
           learnMoreLink="/docs#bilingual"
           screenshot="/screenshots/word-lookup.png"
+          screenshotPosition="right"
         />
 
         {/* Feature 2: AI Tutor */}
@@ -106,7 +109,8 @@ export const Features: React.FC = () => {
           learnMoreLabel={t('features.learnMore')}
           learnMoreLink="/docs#ai-tutor"
           isReversed
-          screenshot="/screenshots/ai-tutor.png"
+          screenshot="/screenshots/ai-explain.png"
+          screenshotPosition="right"
         />
 
         {/* Feature 3: Notebook */}
