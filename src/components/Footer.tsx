@@ -16,8 +16,11 @@ export const Footer: React.FC = () => {
             <Link to="/" className="font-bold text-xl tracking-tight text-white block mb-4">
               Lingua<span className="text-brand-400">Master</span>
             </Link>
-            <p className="text-zinc-500 text-sm leading-relaxed max-w-xs">
+            <p className="text-zinc-500 text-sm leading-relaxed max-w-xs mb-4">
               {t('footer.tagline')}
+            </p>
+            <p className="text-zinc-600 text-xs leading-relaxed max-w-sm italic">
+              {t('footer.developerNote')}
             </p>
           </div>
 

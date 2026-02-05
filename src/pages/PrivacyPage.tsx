@@ -16,20 +16,28 @@ export const PrivacyPage: React.FC = () => {
           text: 'LinguaMaster ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our desktop application.',
         },
         {
-          heading: 'Data Collection',
-          text: 'LinguaMaster is designed with privacy in mind. All your learning data, including vocabulary, video history, and progress, is stored locally on your device. We do not collect, transmit, or store any personal data on our servers.',
+          heading: 'Core Privacy Commitment',
+          text: 'We do not store or audit your translation content on any cloud server. Your translation history and browsing context are stored only on your local device.',
+        },
+        {
+          heading: 'Local Data Storage',
+          text: 'All your learning data, including vocabulary, video history, and progress, is stored locally on your device. If you delete the application or clear the cache, the developer cannot recover your data from the server.',
+        },
+        {
+          heading: 'Cloud Sync Data',
+          text: 'To enable cross-device synchronization, only the Vocabulary (word list) and Video Metadata are uploaded to our servers. Your actual video files and translation history remain local.',
         },
         {
           heading: 'Third-Party Services',
-          text: 'When you use AI features, your queries are sent directly to your configured AI provider (OpenAI, Azure OpenAI, or Ollama). We do not proxy or store these requests. Please refer to your AI provider\'s privacy policy for their data handling practices.',
+          text: 'When you use AI features, your text is transmitted to third-party AI providers (such as OpenAI) for processing. This process is governed by the third-party provider\'s privacy policy. We do not proxy or store these requests, and we are not liable for data breaches or violations by third-party service providers.',
         },
         {
-          heading: 'Video Downloads',
-          text: 'Videos downloaded through LinguaMaster are stored locally on your device. We do not track or monitor your viewing habits or downloaded content.',
+          heading: 'Security Disclaimer',
+          text: 'Although we have adopted industry-standard security measures (such as SSL encryption, Vercel hosting security standards) to protect synchronized data, given the complexity of the Internet environment, we cannot guarantee that data will never be illegally accessed. Users should be aware of and accept the inherent risks of transmitting data over the Internet.',
         },
         {
           heading: 'Analytics',
-          text: 'We do not use any analytics or tracking services. Your usage of LinguaMaster is completely private.',
+          text: 'We use Vercel Analytics for basic website traffic insights on our landing page. The desktop application itself does not use any analytics or tracking services. Your usage of LinguaMaster is completely private.',
         },
         {
           heading: 'Updates',
@@ -37,7 +45,7 @@ export const PrivacyPage: React.FC = () => {
         },
         {
           heading: 'Contact',
-          text: 'If you have any questions about this Privacy Policy, please contact us at [contact email placeholder].',
+          text: 'If you have any questions about this Privacy Policy, please contact us via GitHub Issues or email.',
         },
       ],
     },
@@ -50,20 +58,28 @@ export const PrivacyPage: React.FC = () => {
           text: 'LinguaMaster（"我们"）致力于保护您的隐私。本隐私政策说明了当您使用我们的桌面应用程序时，我们如何收集、使用和保护您的信息。',
         },
         {
-          heading: '数据收集',
-          text: 'LinguaMaster 在设计时充分考虑了隐私保护。您的所有学习数据，包括词汇、视频历史和进度，都存储在您的本地设备上。我们不会在服务器上收集、传输或存储任何个人数据。',
+          heading: '核心隐私承诺',
+          text: '开发者承诺不对用户的翻译内容进行任何云端存储或审计。您的翻译历史、网页上下文仅存储于用户本地设备。',
+        },
+        {
+          heading: '本地数据存储',
+          text: '您的所有学习数据，包括词汇、视频历史和进度，都存储在您的本地设备上。若用户删除应用或清理缓存导致数据丢失，开发者无法通过服务器找回。',
+        },
+        {
+          heading: '云端同步数据',
+          text: '为实现跨端同步，仅生词本（Vocabulary）与视频元数据（Video Meta Data）会上传至服务器。您的实际视频文件和翻译历史保留在本地。',
         },
         {
           heading: '第三方服务',
-          text: '当您使用 AI 功能时，您的查询会直接发送到您配置的 AI 提供商（OpenAI、Azure OpenAI 或 Ollama）。我们不会代理或存储这些请求。请参阅您的 AI 提供商的隐私政策了解其数据处理方式。',
+          text: '当您使用 AI 翻译功能时，您的文本将传输至第三方引擎处理。该过程受第三方服务商（如 OpenAI）隐私政策约束。我们不会代理或存储这些请求，开发者不对第三方服务商的数据泄露或违规行为承担连带责任。',
         },
         {
-          heading: '视频下载',
-          text: '通过 LinguaMaster 下载的视频存储在您的本地设备上。我们不会跟踪或监控您的观看习惯或下载内容。',
+          heading: '安全性免责',
+          text: '尽管我们已采取主流的安全措施（如 SSL 加密、Vercel 托管环境安全标准）来保护同步数据，但鉴于互联网环境的复杂性，开发者无法保证数据绝对不被非法入侵。用户应知晓并接受互联网传输数据存在的固有风险。',
         },
         {
           heading: '分析',
-          text: '我们不使用任何分析或跟踪服务。您对 LinguaMaster 的使用完全私密。',
+          text: '我们在落地页使用 Vercel Analytics 进行基本的流量分析。桌面应用程序本身不使用任何分析或跟踪服务。您对 LinguaMaster 的使用完全私密。',
         },
         {
           heading: '更新',
@@ -71,7 +87,7 @@ export const PrivacyPage: React.FC = () => {
         },
         {
           heading: '联系方式',
-          text: '如果您对本隐私政策有任何疑问，请通过 [联系邮箱占位符] 与我们联系。',
+          text: '如果您对本隐私政策有任何疑问，请通过 GitHub Issues 或电子邮件与我们联系。',
         },
       ],
     },
@@ -84,20 +100,28 @@ export const PrivacyPage: React.FC = () => {
           text: 'LinguaMaster（「当社」）は、お客様のプライバシーを保護することをお約束します。このプライバシーポリシーでは、デスクトップアプリケーションをご利用いただく際の情報の収集、使用、保護について説明します。',
         },
         {
-          heading: 'データ収集',
-          text: 'LinguaMasterはプライバシーを考慮して設計されています。語彙、動画履歴、進捗状況を含むすべての学習データは、お客様のデバイスにローカルで保存されます。当社のサーバーでは個人データを収集、送信、保存しません。',
+          heading: 'プライバシーに関する基本方針',
+          text: '開発者は、ユーザーの翻訳コンテンツをクラウドサーバーに保存または監査しないことをお約束します。翻訳履歴とブラウジングコンテキストは、ユーザーのローカルデバイスにのみ保存されます。',
+        },
+        {
+          heading: 'ローカルデータストレージ',
+          text: '語彙、動画履歴、進捗状況を含むすべての学習データは、お客様のデバイスにローカルで保存されます。アプリケーションを削除したりキャッシュをクリアしたりしてデータが失われた場合、開発者はサーバーからデータを復元することはできません。',
+        },
+        {
+          heading: 'クラウド同期データ',
+          text: 'クロスデバイス同期を有効にするため、語彙リスト（Vocabulary）と動画メタデータのみがサーバーにアップロードされます。実際の動画ファイルと翻訳履歴はローカルに保持されます。',
         },
         {
           heading: 'サードパーティサービス',
-          text: 'AI機能を使用する際、クエリは設定されたAIプロバイダー（OpenAI、Azure OpenAI、またはOllama）に直接送信されます。当社はこれらのリクエストをプロキシしたり保存したりしません。AIプロバイダーのデータ取り扱いについては、各プロバイダーのプライバシーポリシーをご参照ください。',
+          text: 'AI機能を使用する際、テキストはサードパーティのAIプロバイダー（OpenAIなど）に送信されて処理されます。このプロセスはサードパーティプロバイダーのプライバシーポリシーに準拠します。当社はこれらのリクエストをプロキシまたは保存せず、サードパーティサービスプロバイダーによるデータ漏洩や違反について責任を負いません。',
         },
         {
-          heading: '動画ダウンロード',
-          text: 'LinguaMasterを通じてダウンロードされた動画は、お客様のデバイスにローカルで保存されます。当社は視聴習慣やダウンロードコンテンツを追跡または監視しません。',
+          heading: 'セキュリティに関する免責事項',
+          text: '同期データを保護するために業界標準のセキュリティ対策（SSL暗号化、Vercelホスティングセキュリティ基準など）を採用していますが、インターネット環境の複雑さを考慮すると、データが不正アクセスされないことを保証することはできません。ユーザーは、インターネット上でのデータ送信に固有のリスクを認識し、受け入れる必要があります。',
         },
         {
           heading: 'アナリティクス',
-          text: '当社はアナリティクスやトラッキングサービスを使用しません。LinguaMasterのご利用は完全にプライベートです。',
+          text: 'ランディングページでは基本的なウェブサイトトラフィック分析のためにVercel Analyticsを使用しています。デスクトップアプリケーション自体はアナリティクスやトラッキングサービスを使用しません。LinguaMasterのご利用は完全にプライベートです。',
         },
         {
           heading: 'アップデート',
@@ -105,7 +129,7 @@ export const PrivacyPage: React.FC = () => {
         },
         {
           heading: 'お問い合わせ',
-          text: 'このプライバシーポリシーについてご質問がある場合は、[連絡先メールプレースホルダー]までお問い合わせください。',
+          text: 'このプライバシーポリシーについてご質問がある場合は、GitHub Issuesまたはメールでお問い合わせください。',
         },
       ],
     },

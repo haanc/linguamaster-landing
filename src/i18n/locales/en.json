@@ -98,6 +98,7 @@
   },
   "footer": {
     "tagline": "The modern way to learn languages from authentic content. Built for polyglots, by polyglots.",
+    "developerNote": "LinguaMaster is an indie developer project. I'm committed to providing the best language learning experience. Due to limited resources, I may not be able to offer 24/7 support, but I appreciate your understanding and feedback via GitHub Issues.",
     "product": "Product",
     "download": "Download",
     "changelog": "Changelog",
