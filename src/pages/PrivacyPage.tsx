@@ -29,11 +29,15 @@ export const PrivacyPage: React.FC = () => {
         },
         {
           heading: 'Third-Party Services',
-          text: 'When you use AI features, your text is transmitted to third-party AI providers (such as OpenAI) for processing. This process is governed by the third-party provider\'s privacy policy. We do not proxy or store these requests, and we are not liable for data breaches or violations by third-party service providers.',
+          text: 'When you use AI features, your text is transmitted to third-party AI providers (such as OpenAI) for processing. We do not permanently store the content of these requests on our servers. Any transit of data through our infrastructure is encrypted and used solely for the purpose of communicating with the AI providers. This process is also governed by the third-party provider\'s privacy policy, and we are not liable for data breaches or violations by third-party service providers.',
         },
         {
           heading: 'Security Disclaimer',
           text: 'Although we have adopted industry-standard security measures (such as SSL encryption, Vercel hosting security standards) to protect synchronized data, given the complexity of the Internet environment, we cannot guarantee that data will never be illegally accessed. Users should be aware of and accept the inherent risks of transmitting data over the Internet.',
+        },
+        {
+          heading: 'Data Deletion',
+          text: 'Users can manage or delete their synchronized cloud data (Vocabulary and Video Metadata) directly through the application settings. If you wish to request a permanent deletion of all your data from our servers, please contact us via email at feedback@linguamaster.top.',
         },
         {
           heading: 'Analytics',
@@ -71,11 +75,15 @@ export const PrivacyPage: React.FC = () => {
         },
         {
           heading: '第三方服务',
-          text: '当您使用 AI 翻译功能时，您的文本将传输至第三方引擎处理。该过程受第三方服务商（如 OpenAI）隐私政策约束。我们不会代理或存储这些请求，开发者不对第三方服务商的数据泄露或违规行为承担连带责任。',
+          text: '当您使用 AI 翻译功能时，您的文本将传输至第三方 AI 服务商（如 OpenAI）进行处理。我们不会在服务器上永久存储这些请求的内容。任何通过我们基础设施的数据传输都是加密的，且仅用于与 AI 服务商通信。该过程同时受第三方服务商隐私政策约束，开发者不对第三方服务商的数据泄露或违规行为承担连带责任。',
         },
         {
           heading: '安全性免责',
           text: '尽管我们已采取主流的安全措施（如 SSL 加密、Vercel 托管环境安全标准）来保护同步数据，但鉴于互联网环境的复杂性，开发者无法保证数据绝对不被非法入侵。用户应知晓并接受互联网传输数据存在的固有风险。',
+        },
+        {
+          heading: '数据删除',
+          text: '用户可以通过应用程序设置直接管理或删除其同步的云端数据（生词本和视频元数据）。如果您希望永久删除我们服务器上的所有数据，请通过电子邮件 feedback@linguamaster.top 与我们联系。',
         },
         {
           heading: '分析',
@@ -113,11 +121,15 @@ export const PrivacyPage: React.FC = () => {
         },
         {
           heading: 'サードパーティサービス',
-          text: 'AI機能を使用する際、テキストはサードパーティのAIプロバイダー（OpenAIなど）に送信されて処理されます。このプロセスはサードパーティプロバイダーのプライバシーポリシーに準拠します。当社はこれらのリクエストをプロキシまたは保存せず、サードパーティサービスプロバイダーによるデータ漏洩や違反について責任を負いません。',
+          text: 'AI機能を使用する際、テキストはサードパーティのAIプロバイダー（OpenAIなど）に送信されて処理されます。当社はこれらのリクエストの内容をサーバーに永久に保存することはありません。当社のインフラストラクチャを通過するデータはすべて暗号化され、AIプロバイダーとの通信のみに使用されます。このプロセスはサードパーティプロバイダーのプライバシーポリシーにも準拠し、サードパーティサービスプロバイダーによるデータ漏洩や違反について当社は責任を負いません。',
         },
         {
           heading: 'セキュリティに関する免責事項',
           text: '同期データを保護するために業界標準のセキュリティ対策（SSL暗号化、Vercelホスティングセキュリティ基準など）を採用していますが、インターネット環境の複雑さを考慮すると、データが不正アクセスされないことを保証することはできません。ユーザーは、インターネット上でのデータ送信に固有のリスクを認識し、受け入れる必要があります。',
+        },
+        {
+          heading: 'データ削除',
+          text: 'ユーザーは、アプリケーション設定から直接、同期されたクラウドデータ（語彙および動画メタデータ）を管理または削除できます。当社のサーバーからすべてのデータを永久に削除することをご希望の場合は、feedback@linguamaster.top までメールでお問い合わせください。',
         },
         {
           heading: 'アナリティクス',

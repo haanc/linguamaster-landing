@@ -21,11 +21,19 @@ export const TermsPage: React.FC = () => {
         },
         {
           heading: 'License',
-          text: 'LinguaMaster is provided under the MIT License. You are free to use, modify, and distribute the software in accordance with the license terms.',
+          text: 'The core open-source components of LinguaMaster may be provided under the MIT License. However, specific commercial versions, pre-built binaries, cloud synchronization features, and premium functionalities are subject to this End User License Agreement (EULA) and may not be redistributed or resold without explicit authorization.',
         },
         {
           heading: 'Use of the Application',
           text: 'LinguaMaster is designed for personal language learning. You are responsible for ensuring that your use of the application complies with all applicable laws and regulations, including copyright laws regarding video content.',
+        },
+        {
+          heading: 'Subscription and Payments',
+          text: 'Payments for premium features are processed via third-party providers (e.g., Lemon Squeezy). Subscription fees are non-refundable unless required by applicable local law. We reserve the right to change our pricing with reasonable notice. Free credits provided monthly are for personal use only and may not be transferred or sold.',
+        },
+        {
+          heading: 'Data Ownership',
+          text: 'You retain all rights to your learning data, including vocabulary lists and translation history. Since translation history is stored locally on your device, we cannot recover data if you uninstall the application without creating a backup. Cloud-synced data (vocabulary and video metadata) can be exported upon request.',
         },
         {
           heading: 'Third-Party Services',
@@ -67,11 +75,19 @@ export const TermsPage: React.FC = () => {
         },
         {
           heading: '许可证',
-          text: 'LinguaMaster 根据 MIT 许可证提供。您可以根据许可证条款自由使用、修改和分发该软件。',
+          text: 'LinguaMaster 的核心开源组件可能遵循 MIT 许可证。但是，特定的商业版本、预编译二进制文件、云同步功能和高级功能受本最终用户许可协议 (EULA) 约束，未经明确授权不得再分发或转售。',
         },
         {
           heading: '应用程序使用',
           text: 'LinguaMaster 专为个人语言学习设计。您有责任确保您对应用程序的使用符合所有适用的法律法规，包括有关视频内容的版权法。',
+        },
+        {
+          heading: '订阅与付款',
+          text: '高级功能的付款通过第三方提供商（如 Lemon Squeezy）处理。除非当地法律要求，否则订阅费用不予退还。我们保留在合理通知后更改定价的权利。每月提供的免费额度仅供个人使用，不得转让或出售。',
+        },
+        {
+          heading: '数据归属',
+          text: '您保留对您的学习数据的所有权利，包括生词本和翻译历史。由于翻译历史存储在您的本地设备上，如果您在未创建备份的情况下卸载应用程序，我们无法恢复数据。云同步数据（生词本和视频元数据）可根据要求导出。',
         },
         {
           heading: '第三方服务',
@@ -113,11 +129,19 @@ export const TermsPage: React.FC = () => {
         },
         {
           heading: 'ライセンス',
-          text: 'LinguaMasterはMITライセンスの下で提供されます。ライセンス条項に従って、ソフトウェアを自由に使用、変更、配布できます。',
+          text: 'LinguaMasterのコアオープンソースコンポーネントはMITライセンスの下で提供される場合があります。ただし、特定の商用バージョン、プリビルドバイナリ、クラウド同期機能、およびプレミアム機能は、本エンドユーザーライセンス契約（EULA）の対象となり、明示的な許可なく再配布または転売することはできません。',
         },
         {
           heading: 'アプリケーションの使用',
           text: 'LinguaMasterは個人の語学学習用に設計されています。動画コンテンツに関する著作権法を含む、すべての適用法および規制に準拠してアプリケーションを使用する責任はお客様にあります。',
+        },
+        {
+          heading: 'サブスクリプションとお支払い',
+          text: 'プレミアム機能のお支払いは、サードパーティプロバイダー（Lemon Squeezyなど）を通じて処理されます。適用される現地法で義務付けられていない限り、サブスクリプション料金は返金されません。当社は、合理的な通知をもって価格を変更する権利を留保します。毎月提供される無料クレジットは個人使用のみを目的としており、譲渡または販売することはできません。',
+        },
+        {
+          heading: 'データ所有権',
+          text: 'お客様は、語彙リストや翻訳履歴を含む学習データに対するすべての権利を保持します。翻訳履歴はお客様のデバイスにローカルで保存されるため、バックアップを作成せずにアプリケーションをアンインストールした場合、データを復元することはできません。クラウド同期データ（語彙および動画メタデータ）はリクエストに応じてエクスポートできます。',
         },
         {
           heading: 'サードパーティサービス',
