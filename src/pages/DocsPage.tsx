@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Zap, Brain, BookOpen, Video, Languages, Sparkles, BookMarked, Settings } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 interface DocSection {
   id: string;
@@ -142,6 +143,11 @@ export const DocsPage: React.FC = () => {
 
   return (
     <section className="pt-32 pb-20 min-h-screen">
+      <SEO
+        title="Documentation"
+        description="Learn how to use LinguaMaster effectively. Import videos, generate AI subtitles, and master languages with interactive learning tools."
+        path="/docs"
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">

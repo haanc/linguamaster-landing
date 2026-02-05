@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { SEO } from '../components/SEO';
 
 export const TermsPage: React.FC = () => {
   const { i18n } = useTranslation();
@@ -126,6 +127,11 @@ export const TermsPage: React.FC = () => {
 
   return (
     <section className="pt-32 pb-20 min-h-screen">
+      <SEO
+        title="Terms of Service"
+        description="LinguaMaster terms of service. Understand your rights and responsibilities when using our language learning application."
+        path="/terms"
+      />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">

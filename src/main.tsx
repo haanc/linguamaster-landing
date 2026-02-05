@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
 import App from './App';
 import './index.css';
@@ -13,7 +14,9 @@ if (!rootElement) {
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <App />
-    <Analytics />
+    <HelmetProvider>
+      <App />
+      <Analytics />
+    </HelmetProvider>
   </React.StrictMode>
 );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { SEO } from '../components/SEO';
 
 export const PrivacyPage: React.FC = () => {
   const { i18n } = useTranslation();
@@ -114,6 +115,11 @@ export const PrivacyPage: React.FC = () => {
 
   return (
     <section className="pt-32 pb-20 min-h-screen">
+      <SEO
+        title="Privacy Policy"
+        description="LinguaMaster's privacy policy. Learn how we protect your data with our local-first, privacy-by-design approach."
+        path="/privacy"
+      />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
