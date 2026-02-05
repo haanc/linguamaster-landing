@@ -8,17 +8,17 @@
     "download": "Descargar"
   },
   "hero": {
-    "badge": "v0.6.0 Vista previa pública estable",
-    "title1": "Deja de ver pasivamente.",
+    "badge": "v0.6.1 Vista previa pública estable",
+    "title1": "Deja de ver.",
     "title2": "Empieza a dominar.",
-    "description": "LinguaMaster transforma YouTube en tu estudio de idiomas IA personal. Subtítulos interactivos, IA contextual y cuaderno inteligente—todo en una aplicación de escritorio nativa.",
+    "description": "LinguaMaster transforma YouTube en tu laboratorio privado de inmersión lingüística con IA. Subtítulos interactivos, coaching contextual y un \"Second Brain\" local—todo en una aplicación de escritorio nativa.",
     "downloadWindows": "Descargar para Windows",
     "watchDemo": "Ver demo",
     "comingSoon": "macOS y Linux próximamente",
     "freeForPersonal": "Gratis para uso personal",
-    "freeCredits": "500 Créditos Mensuales",
-    "onSignUp": "Gratis",
-    "noConfig": "Sin configuración",
+    "freeCredits": "500 Créditos Cada Mes.",
+    "onSignUp": "Invita la casa.",
+    "noConfig": "Inicio instantáneo",
     "exampleSubtitle": "\"La créativité demande du courage.\"",
     "exampleTranslation": "La creatividad requiere coraje.",
     "exampleAuthor": "[Matisse]",
@@ -39,26 +39,26 @@
     "coreModule": "Módulo Principal",
     "learnMore": "Saber más",
     "feature1": {
-      "headline": "Diseñado para el estado de flujo",
-      "text": "Experimenta el diseño de estudio de pantalla dividida inmersivo. Video a la izquierda, aprendizaje interactivo a la derecha. Sin distracciones."
+      "headline": "Diseñado para Deep Work y Flow",
+      "text": "Experimenta el diseño de estudio de pantalla dividida inmersivo. Video a la izquierda, aprendizaje interactivo a la derecha. Cero distracciones."
     },
     "feature2": {
       "headline": "Tutor IA Contextual",
       "text": "No solo traduzcas. Comprende. Nuestra IA analiza oraciones específicas dentro del contexto del video para gramática, resumen y matices culturales."
     },
     "feature3": {
-      "headline": "Tu Segundo Cerebro para Vocabulario",
-      "text": "Guarda palabras con su marca de tiempo de video original y contexto. Revísalas en una hermosa cuadrícula de mampostería."
+      "headline": "Una Bóveda para Tu Léxico Mental",
+      "text": "Guarda palabras con su marca de tiempo de video original y contexto. Revísalas con repetición espaciada en una hermosa cuadrícula de mampostería."
     },
     "techSpecs": {
       "title": "Especificaciones Técnicas",
       "subtitle": "ARCH // Construido para usuarios avanzados que se preocupan por sus datos.",
       "localFirst": {
-        "title": "Local Primero",
+        "title": "Privacy by Design: Local Primero",
         "text": "Tus datos de aprendizaje permanecen en tu máquina. No rastreamos tu progreso ni vendemos tus hábitos."
       },
       "byoKey": {
-        "title": "Inicio Sin Configurar",
+        "title": "Inicio Instantáneo. Cero Fricción.",
         "text": "Comienza instantáneamente con 500 créditos gratis—sin configuración. Cambia a tu propia clave API en cualquier momento para uso ilimitado."
       },
       "electronNative": {
@@ -67,8 +67,8 @@
       }
     },
     "credits": {
-      "title": "500 Créditos Mensuales.",
-      "subtitle": "Más poder del que crees.",
+      "title": "500 Créditos Cada Mes.",
+      "subtitle": "Generoso por defecto.",
       "description": "Cada mes, tu saldo se reinicia. Esto es lo que puedes lograr sin gastar un centavo.",
       "videoProcessing": {
         "title": "Procesamiento de Video",

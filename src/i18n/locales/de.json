@@ -8,17 +8,17 @@
     "download": "Herunterladen"
   },
   "hero": {
-    "badge": "v0.6.0 Stabile öffentliche Vorschau",
+    "badge": "v0.6.1 Stabile öffentliche Vorschau",
     "title1": "Hör auf, passiv zuzuschauen.",
     "title2": "Fang an zu meistern.",
-    "description": "LinguaMaster verwandelt YouTube in dein persönliches KI-Sprachstudio. Interaktive Untertitel, kontextbewusste KI und smartes Notizbuch—alles in einer nativen Desktop-App.",
+    "description": "LinguaMaster verwandelt YouTube in dein privates, KI-gestütztes Sprachimmersionslabor. Interaktive Untertitel, kontextbewusstes Coaching und ein lokales \"Second Brain\"—alles in einer nativen Desktop-App.",
     "downloadWindows": "Für Windows herunterladen",
     "watchDemo": "Demo ansehen",
     "comingSoon": "macOS & Linux bald verfügbar",
     "freeForPersonal": "Kostenlos für den persönlichen Gebrauch",
-    "freeCredits": "500 Monatliche Credits",
-    "onSignUp": "Kostenlos",
-    "noConfig": "Keine Konfiguration",
+    "freeCredits": "500 Credits jeden Monat.",
+    "onSignUp": "Geht auf uns.",
+    "noConfig": "Sofort starten",
     "exampleSubtitle": "\"La créativité demande du courage.\"",
     "exampleTranslation": "Kreativität erfordert Mut.",
     "exampleAuthor": "[Matisse]",
@@ -39,7 +39,7 @@
     "coreModule": "Kernmodul",
     "learnMore": "Mehr erfahren",
     "feature1": {
-      "headline": "Entwickelt für den Flow-Zustand",
+      "headline": "Für Deep Work & Flow konzipiert",
       "text": "Erlebe das immersive Studio-Layout mit geteiltem Bildschirm. Video links, interaktives Lernen rechts. Keine Ablenkungen."
     },
     "feature2": {
@@ -47,18 +47,18 @@
       "text": "Nicht nur übersetzen. Verstehen. Unsere KI analysiert spezifische Sätze im Videokontext für Grammatik, Zusammenfassung und kulturelle Nuancen."
     },
     "feature3": {
-      "headline": "Dein zweites Gehirn für Vokabeln",
-      "text": "Speichere Wörter mit ihrem originalen Video-Zeitstempel und Kontext. Überprüfe sie in einem schönen Mauerwerk-Raster."
+      "headline": "Ein Tresor für dein mentales Lexikon",
+      "text": "Speichere Wörter mit ihrem originalen Video-Zeitstempel und Kontext. Überprüfe sie mit Spaced Repetition in einem schönen Mauerwerk-Raster."
     },
     "techSpecs": {
       "title": "Technische Spezifikationen",
       "subtitle": "ARCH // Entwickelt für Power-User, denen ihre Daten wichtig sind.",
       "localFirst": {
-        "title": "Local First",
+        "title": "Privacy by Design: Local-First",
         "text": "Deine Lerndaten bleiben auf deinem Gerät. Wir verfolgen deinen Fortschritt nicht und verkaufen deine Gewohnheiten nicht."
       },
       "byoKey": {
-        "title": "Sofort Starten",
+        "title": "Sofort starten. Null Reibung.",
         "text": "Starte sofort mit 500 kostenlosen Credits—keine Einrichtung erforderlich. Wechsle jederzeit zu deinem eigenen API-Schlüssel für unbegrenzte Nutzung."
       },
       "electronNative": {
@@ -67,8 +67,8 @@
       }
     },
     "credits": {
-      "title": "500 Monatliche Credits.",
-      "subtitle": "Mehr Power als du denkst.",
+      "title": "500 Credits jeden Monat.",
+      "subtitle": "Großzügig von Natur aus.",
       "description": "Jeden Monat wird dein Guthaben zurückgesetzt. Das kannst du erreichen, ohne einen Cent auszugeben.",
       "videoProcessing": {
         "title": "Video-Verarbeitung",

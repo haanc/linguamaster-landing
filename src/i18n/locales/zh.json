@@ -8,17 +8,17 @@
     "download": "下载"
   },
   "hero": {
-    "badge": "v0.6.0 稳定公测版",
+    "badge": "v0.6.1 稳定公测版",
     "title1": "告别被动观看。",
     "title2": "开始精通语言。",
-    "description": "LinguaMaster 将 YouTube 变成你的 AI 语言学习工作室。交互式字幕、上下文感知 AI、智能笔记本——全部集成在原生桌面应用中。",
+    "description": "LinguaMaster 将 YouTube 变成你的私人 AI 语言沉浸实验室。交互式字幕、上下文感知辅导、本地优先的「第二大脑」——全部集成在原生桌面应用中。",
     "downloadWindows": "下载 Windows 版",
     "watchDemo": "观看演示",
     "comingSoon": "macOS 和 Linux 版即将推出",
     "freeForPersonal": "个人使用免费",
     "freeCredits": "每月 500 积分",
-    "onSignUp": "免费",
-    "noConfig": "无需配置",
+    "onSignUp": "我们请客",
+    "noConfig": "即开即用",
     "exampleSubtitle": "\"La créativité demande du courage.\"",
     "exampleTranslation": "创造力需要勇气。",
     "exampleAuthor": "[马蒂斯]",
@@ -39,7 +39,7 @@
     "coreModule": "核心模块",
     "learnMore": "了解更多",
     "feature1": {
-      "headline": "专为心流状态设计",
+      "headline": "专为深度工作与心流设计",
       "text": "体验沉浸式分屏工作室布局。左侧视频，右侧交互学习。零干扰。"
     },
     "feature2": {
@@ -47,18 +47,18 @@
       "text": "不仅仅是翻译，更要理解。我们的 AI 在视频上下文中分析特定句子的语法、摘要和文化内涵。"
     },
     "feature3": {
-      "headline": "你的词汇第二大脑",
-      "text": "保存单词时附带原视频时间戳和上下文。在精美的瀑布流布局中复习它们。"
+      "headline": "你的词汇记忆金库",
+      "text": "保存单词时附带原视频时间戳和上下文。在精美的瀑布流布局中通过间隔重复复习它们。"
     },
     "techSpecs": {
       "title": "技术规格",
       "subtitle": "架构 // 为重视数据隐私的高级用户打造。",
       "localFirst": {
-        "title": "本地优先",
+        "title": "隐私设计：本地优先",
         "text": "你的学习数据保存在本机。我们不追踪你的进度，也不出售你的习惯数据。"
       },
       "byoKey": {
-        "title": "零配置启动",
+        "title": "即开即用。零阻力。",
         "text": "注册即送 500 积分，无需任何配置即可开始使用。随时可切换到自己的 API 密钥享受无限用量。"
       },
       "electronNative": {
@@ -68,7 +68,7 @@
     },
     "credits": {
       "title": "每月 500 积分",
-      "subtitle": "比你想象的更强大",
+      "subtitle": "慷慨，是我们的默认设置",
       "description": "每月额度自动重置。以下是你无需花费一分钱就能实现的目标。",
       "videoProcessing": {
         "title": "视频处理",

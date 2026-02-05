@@ -8,17 +8,17 @@
     "download": "Download"
   },
   "hero": {
-    "badge": "v0.6.0 Stable Public Preview",
-    "title1": "Stop Watching Passively.",
+    "badge": "v0.6.1 Stable Public Preview",
+    "title1": "Stop Watching.",
     "title2": "Start Mastering.",
-    "description": "LinguaMaster transforms YouTube into your personal AI language studio. Interactive subtitles, context-aware AI, and a smart notebook—all in a native desktop app.",
+    "description": "LinguaMaster turns YouTube into your private, AI-powered language immersion lab. Interactive subtitles, context-aware coaching, and a local-first \"Second Brain\"—all in one native desktop app.",
     "downloadWindows": "Download for Windows",
     "watchDemo": "Watch Demo",
     "comingSoon": "macOS & Linux coming soon",
     "freeForPersonal": "Free for personal use",
-    "freeCredits": "500 Monthly Credits",
-    "onSignUp": "for Free",
-    "noConfig": "No config needed",
+    "freeCredits": "500 Credits Every Month.",
+    "onSignUp": "On Us.",
+    "noConfig": "Instant Start",
     "exampleSubtitle": "\"La créativité demande du courage.\"",
     "exampleTranslation": "Creativity requires courage.",
     "exampleAuthor": "[Matisse]",
@@ -39,26 +39,26 @@
     "coreModule": "Core Module",
     "learnMore": "Learn more",
     "feature1": {
-      "headline": "Engineered for Flow State",
-      "text": "Experience the immersive split-screen Studio Layout. Video on the left, interactive learning on the right. No distractions."
+      "headline": "Designed for Deep Work & Flow",
+      "text": "Experience the immersive split-screen Studio Layout. Video on the left, interactive learning on the right. Zero distractions."
     },
     "feature2": {
       "headline": "Context-Aware AI Tutor",
       "text": "Don't just translate. Understand. Our AI analyzes specific sentences within the video context for grammar, summary, and cultural nuance."
     },
     "feature3": {
-      "headline": "Your Second Brain for Vocabulary",
-      "text": "Save words with their original video timestamp and context. Review them in a beautiful masonry grid."
+      "headline": "A Second Brain for Your Mental Lexicon",
+      "text": "Save words with their original video timestamp and context. Review them in a beautiful masonry grid with spaced repetition."
     },
     "techSpecs": {
       "title": "Technical Specifications",
       "subtitle": "ARCH // Built for power users who care about their data.",
       "localFirst": {
-        "title": "Local First",
+        "title": "Privacy by Design: Local-First",
         "text": "Your learning data stays on your machine. We don't track your progress or sell your habits."
       },
       "byoKey": {
-        "title": "Zero Config Start",
+        "title": "Instant Start. Zero Friction.",
         "text": "Start instantly with 500 free credits—no setup required. Switch to your own API key anytime for unlimited usage."
       },
       "electronNative": {
@@ -67,8 +67,8 @@
       }
     },
     "credits": {
-      "title": "500 Monthly Credits.",
-      "subtitle": "More power than you think.",
+      "title": "500 Credits Every Month.",
+      "subtitle": "Generous by Default.",
       "description": "Every month, your balance resets. Here is what you can achieve without spending a dime.",
       "videoProcessing": {
         "title": "Video Processing",
